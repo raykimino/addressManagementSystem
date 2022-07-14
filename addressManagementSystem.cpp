@@ -131,11 +131,6 @@ int isExist(addressManagement* ex, string name)
 //É¾³ıÁªÏµÈË
 void deletePersomInfo(addressManagement* ex, string name, int e)
 {
-	if (e == 1)
-	{
-		
-	}
-
 	for (int i = e; i < ex->p_Number; i++)
 	{
 		ex->personArray[i] = ex->personArray[i + 1];
